@@ -985,12 +985,6 @@ font-size: 16px;
   }
 }
 
-@media (min-width: 992px) {
-  .content-list {
-    padding-top: 26px;
-  }
-}
-
 .content-list li {
   font-size: 21px;
   font-weight: 400;

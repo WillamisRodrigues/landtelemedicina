@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title> Edital Telemedicina </title>
+  <title> Edital: Telemedicina </title>
   <!-- Plugins CSS -->
   <link rel="stylesheet" href="plugins/bootstrap-4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="plugins/meanmenu/meanmenu.css">
+  <link rel="icon" href="image/icone.png" type="image/png">
   <!-- fonts -->
   <link rel="stylesheet" href="fonts/ep-icon-fonts/css/style.css">
   <link rel="stylesheet" href="fonts/fontawesome-5/css/all.min.css">
@@ -18,7 +19,7 @@
 
 <body>
 <div class="site-wrapper">
-    <div id="menu">
+    <div id="menu" class="fixed-top">
     <header class="site-header">
         <div class="container">
             <div class="row justify-content-center align-items-center position-relative">
@@ -31,12 +32,12 @@
                 <div class="col-sm-1 col-6 col-lg-7 col-xl-6  position-static order-lg-2">
                     <div class="main-navigation">
                         <ul class="main-menu">
-                            <li class="menu-item"> <a href=""> Home </a></li>
-                            <li class="menu-item "><a href="">Sobre</a></li>
-                            <li class="menu-item"><a href="">Regulamento</a></li>
-                            <li class="menu-item"><a href="">Critérios</a></li>
-                            <li class="menu-item"><a href="">Depoimento</a></li>   
-                            <li class="menu-item"><a href="">Contato</a></li>   
+                            <li class="menu-item"> <a href="#home" class="item"> Home </a></li>
+                            <li class="menu-item "><a href="#sobre-telemedicina" class="item">Sobre</a></li>
+                            <li class="menu-item"><a href="#regulamentos-inscricao" class="item">Regulamento</a></li>
+                            <li class="menu-item"><a href="#municipios" class="item">Critérios</a></li>
+                            <li class="menu-item"><a href="#mapa" class="item">Depoimento</a></li>   
+                            <li class="menu-item"><a href="#contato" class="item">Contato</a></li>   
                             </ul>
                     </div>
                     <div class="mobile-menu"></div>
@@ -46,27 +47,27 @@
     </header>
 </div>
 
-  <section class="area-edital">
+  <section class="area-edital" id="home">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-6 order-lg-2">
+        <div class="col-lg-8 order-lg-2">
           <div class="hero-image">
             <img src="image/medico-pc.png" alt="" class="ml-100">
           </div>
         </div>
-        <div class="col-lg-6 order-lg-1">
+        <div class="col-lg-4 order-lg-1">
           <div class="hero-content">
-            <h1>1 Edital.</h1>
-            <h3>Telemedicina 
+            <h1 class="titulo-edital">1º EDITAL</h1>
+            <h1 class="sobre-medicina">Telemedicina 
                 Inteligente para
                 o enfrentamento
-                da pandemia</h3>
-                <button class="btn btn-warning">Inscreva seu municipio até 21/07</button>
+                da pandemia</h1>
+                <button class="btn btn-inscrevarse-edital">Inscreva seu municipio até 21/07</button>
           </div>
         </div>
       </div>
     </div>
-    <img src="image/barra1.png" alt="">
+    <img src="image/barra1.png" alt="" class="barra-1">
   </section>
   
   <section class="municipios-participar" id="sobre-telemedicina">
@@ -81,13 +82,13 @@
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="hero-content">
-           <h3>Saiba mais sobre como a telemedicina pode apoiar o seu município no enfrentamento 
+           <h3 class="apoio-municipio">Saiba mais sobre como a telemedicina pode apoiar o seu município no enfrentamento 
             da pandemia!</h3>
           </div>
         </div>
       </div>
     </div>
-    <img src="image/barra2.png" alt="">
+    <img src="image/barra2.png" alt="" class="barra-2">
   </section>
   
   <section class="content-section-02" id="municipios">
@@ -95,36 +96,36 @@
         <div class="row justify-content-center">
             <div class="col-xl-5 offset-xl-1 col-sm-6 col-10 order-sm-2">
                 <div class="content-img">
-                    <img src="image/criterios-covid.png" alt="">
+                    <img src="image/criterios-covid.png" alt="" class="img-criterios">
                 </div>
             </div>
-            <div class="col-xl-5  col-sm-6 order-sm-1">
+            <div class="col-xl-6  col-sm-6 order-sm-1">
                 <div class="content-left-content">
-                    <h1>Municípios que podem participar</h1>
-                    <p>Municípios brasileiros com até 350 mil habitantes conforme
+                    <h1 class="titulo-municipios-participar">Municípios que <br> podem participar</h1>
+                    <p class="sobre-participacao">Municípios brasileiros com até 350 mil habitantes conforme
                         dados do IBGE, e com alto índice epidemiológico na disseminação de vírus identificados a partir de estudo da Fiocruz. 
                         </p>
-                    <h2>Critérios de Seleção</h2>
+                    <h2 class="criterios-selecao">Critérios de Seleção</h2>
                     <ul class="content-list">
                         <li>
-                            <span><img src="image/check.png" alt=""></span>Escala de Engajamento
-                            <p>Considerando disponibilidade da equipe para receber
+                            <span class="item-check"><img src="image/check.png" alt="" class="img-item">Escala de Engajamento</span>
+                            <p class="desc-check">Considerando disponibilidade da equipe para receber
                                 a consultoria, senioridade da equipe
                                 envolvida e ações preventivas realizadas pelo município.</p>
                         </li>
                         <li>
-                            <span><img src="image/check.png" alt=""></span>Governança da crise
-                            <p>Considerando a estrutura criada para gestão
+                            <span class="item-check"><img src="image/check.png" alt="" class="img-item">Governança da crise </span>
+                            <p class="desc-check">Considerando a estrutura criada para gestão <br>
                                 do dia a dia da crise.</p>
                         </li>
                         <li>
-                            <span><img src="image/check.png" alt=""></span>Capacidade de seguir as regras de isolamento social
-                            <p>considerando a adesão do município a medidas
+                            <span class="item-check"><img src="image/check.png" alt="" class="img-item">Capacidade de seguir as regras de isolamento social </span>
+                            <p class="desc-check">considerando a adesão do município a medidas
                                 de mitigação do alastramento da contaminação.</p>
                         </li>
                         <li>
-                            <span><img src="image/check.png" alt=""></span>Integração/diálogo regional
-                            <p>Considerando o diálogo do município
+                            <span class="item-check"><img src="image/check.png" alt=""  class="img-item">Integração/diálogo regional </span>
+                            <p class="desc-check">Considerando o diálogo do município
                                 com regiões metropolitanas, consórcios, Estado e União para
                                 ações de prevenção e atendimento.</p>
                         </li>
@@ -140,12 +141,12 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 order-lg-2">
           <div class="hero-image">
-            <img src="image/inteligencia-artificial.png" alt="">
+            <img src="image/inteligencia-artificial.png" alt="" class="img-inteligencia">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="hero-content">
-            <h1>Gestão do cuidado e processos eficientes com Inteligência Artificial</h1>
+            <h1 class="gestao-cuidado">Gestão do cuidado e processos eficientes com <span class="ia"> Inteligência Artificial </span></h1>
             </div>
           </div>
         </div>
@@ -159,15 +160,15 @@
       <div class="row justify-content-center">
         <div class="col-lg-6 order-lg-2">
           <div class="hero-image">
-            <img src="image/mapa.png" alt="">
+            <img src="image/mapa.png" alt="" >
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="hero-content">
             <div id="box-comentario">
-               <img src="image/fulano.png" alt="">
-               <p>Fulano de Tal</p>
-               <p>“ Integração/diálogo regional: considerando o diálogo
+               <img src="image/fulano.png" alt="" class="img-depoimento">
+               <p class="nome-depoimento">Fulano de Tal</p>
+               <p class="depoimento">“ Integração/diálogo regional: considerando o diálogo
                 do município
                 com regiões metropolitanas, consórcios, Estado e União para ações de prevenção
                 e atendimento. ”</p>
@@ -183,44 +184,46 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 order-lg-2">
-          <button class="btn btn-primary">Clique aqui para fazer
+          <button class="btn inscricao-regulamento">Clique aqui para fazer <br>
             a sua inscrição</button>
         </div>
         <div class="col-lg-6 order-lg-1">
-            <button class="btn btn-primary">Clique aqui e baixe
+            <button class="btn inscricao-regulamento">Clique aqui e baixe <br>
                 o regulamento</button>
           </div>
       </div>
     </div>
-    <img src="image/barra3.png" alt="">
   </section>
 
   
-  <section class="contato">
+  <section class="contato" id="contato">
+    <img src="image/barra3.png" alt="" class="barra-3"> 
+      <div class="divisao-4"></div>
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center area-contato">
         <div class="col-lg-12">
-            <h1>CONTATO</h1>
-            <p>Para tirar dúvidas e contribuir com sugestões. deixe sua mensagem.</p>
+            <h1 class="titulo-contato">CONTATO</h1>
+            <p class="desc-contato">Para tirar dúvidas e contribuir com sugestões. deixe sua mensagem.</p>
           </div>
         <div class="col-lg-6 order-lg-1">
-          <form action="">
-              <label for="">Nome</label>
-              <input type="text" class="form-control">
-              <label for="">telefone</label>
-              <input type="text" class="form-control">
-              <label for="">Email</label>
-              <input type="text" class="form-control">
-              <label for="">Municipio</label>
-              <input type="text" class="form-control">
-          </form>
+          <form action="envio.php" method="POST">
+              <label for="" class="titulo-btn">Nome</label>
+              <input type="text" class="form-control btn-form-contato" name="nome" required>
+              <label for="" class="titulo-btn">telefone</label>
+              <input type="text" class="form-control  telefone btn-form-contato" name="telefone" required>
+              <label for="" class="titulo-btn">Email</label>
+              <input type="email" class="form-control btn-form-contato" name="email" required>
+              <label for="" class="titulo-btn">Municipio</label>
+              <input type="text" class="form-control btn-form-contato" name="municipio" required>
+        
         </div>
         <div class="col-lg-6 order-lg-2">
-            <label for="">Estado</label>
-              <input type="text" class="form-control">
-              <label for="">Mensagem</label>
-              <textarea class="form-control" rows="6" cols="60"></textarea>
-              <input type="submit" class="btn btn-primary btn-block">
+            <label for="" class="titulo-btn">Estado</label>
+              <input type="text" class="form-control btn-form-contato" name="estado" required>
+              <label for="" class="titulo-btn">Mensagem</label>
+              <textarea class="form-control btn-form-contato" rows="5" cols="40" name="mensagem" required></textarea>
+              <input type="submit" class="btn btn-submit btn-block">
+            </form>
           </div>
       </div>
     </div>
@@ -231,7 +234,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 order-lg-1">
-              <h2>Realização:</h2>
+              <h2 class="text-center titulo-rodape">Realização:</h2>
         </div>
         <div class="col-lg-6 order-lg-2">
             <img src="image/vt-rodape.png" alt="">
@@ -240,11 +243,12 @@
       <hr>
       <div class="row justify-content-center">
         <div class="col-lg-6 order-lg-1">
-              <h2>Apoio:</h2>
-              <img src="image/bv.png" alt="">
+             
+              <img src="image/bv.png" alt="" class="logo-apoio">
+              <h2 class="titulo-apoio text-right">Apoio:</h2>
         </div>
         <div class="col-lg-6 order-lg-2">
-            <h2>Parceiro:</h2>
+            <h2 class="titulo-parceiro">Parceiro:</h2>
             <img src="image/laura.png" alt="">
           </div>
       </div>
@@ -283,5 +287,46 @@
   <script src="plugins/meanmenu/jquery.meanmenu.js"></script>
   <!-- Plugins JS -->
   <script src="js/active.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+  <script>
+     jQuery(".telefone")
+             .mask("(99) 999999-99?9")
+             .focusout(function (event) {  
+     
+                 var target, phone, element;  
+     
+                 target = (event.currentTarget) ? event.currentTarget : event.srcElement;  
+     
+                 phone = target.value.replace(/\D/g, '');
+     
+                 element = $(target);  
+     
+                 element.unmask();  
+     
+                 if(phone.length > 10) {  
+     
+                     element.mask("(99) 9999999-99?9");  
+     
+                 } else {  
+     
+                     element.mask("(99) 9999999-99?9");  
+     
+                 }  
+     
+             });
+     
+       
+  </script>
+  <script>
+   $('.item').on('click', function(e) {
+  e.preventDefault();
+  var id = $(this).attr('href'),
+  targetOffset = $(id).offset().top;
+    
+  $('html, body').animate({ 
+    scrollTop: targetOffset - 100
+  }, 500);
+});
+  </script>
 </body>
 </html>

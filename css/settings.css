@@ -13,6 +13,7 @@ body {
   font-size: 14px;
   line-height: 1;
   color: #1f1f1f;
+  background-color: #fff;
 }
 
 h1,
@@ -333,6 +334,7 @@ input[type="number"] {
 
 #sobre-telemedicina, #gestao{
   background: #F3F3F3;
+  padding: 50px 0px 20px 0px;
 }
 
 #municipios{
@@ -341,6 +343,10 @@ input[type="number"] {
 
 .area-edital, .municipios-participar {
   padding: 36px 0 0px;
+}
+
+.area-edital{
+  margin-top: 520px;
 }
 
 .contato {
@@ -359,7 +365,285 @@ input[type="number"] {
 
 #regulamentos-inscricao{
   background: #B4DC32;
+  padding: 115px 0 80px!important;
 }
 #rodape{
   background: #F3F3F3;
+}
+
+.titulo-edital{
+  font-size: 36px!important;
+  font-family: 'VotorantimSans';
+  color: #B4DC32!important;
+  letter-spacing: 0.2px!important;
+  line-height: 42px!important;
+  margin-top:30px;
+}
+
+.sobre-medicina{
+  font-family: 'VotorantimSans';
+  color: #0000BF!important;
+  font-size: 48px!important;
+  width: 396px!important;
+  line-height: 56px!important;
+}
+
+.btn-inscrevarse-edital{
+  font-family: 'VotorantimSans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  background: #FFC40A;
+  box-shadow: 3px 6px 6px rgba(74, 68, 7, 0.36);
+  border-radius: 5px;
+}
+
+.barra-1{
+  margin-bottom: -10px;
+}
+
+.barra-2{
+  margin-top: 5px;
+  float: right;
+}
+
+.barra-3{
+  margin-top: -50px;
+  float: right;
+}
+
+.divisao-4{
+  position: absolute;
+  width: 70%;
+  margin-top: 140px;
+  right: 0px;
+  background: #B4DC32;
+  border-radius: 5px;
+  height: 7px;
+}
+
+.apoio-municipio{
+  margin-top: 120px;
+  font-family: 'VotorantimSans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+  color: #0000BF;
+}
+
+.titulo-municipios-participar{
+  font-family: 'VotorantimSans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 50px;
+  color: #0000BF;
+}
+.sobre-participacao{
+  margin-top: 15px;
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px!important;
+line-height: 21px!important;
+}
+
+.criterios-selecao{
+  margin-top: 50px;
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: 900!important;
+font-size: 38px!important;
+line-height: 45px!important;
+color: #0000BF;
+}
+
+.item-check{
+font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+}
+
+.desc-check{
+  font-family: 'VotorantimSans';
+  font-style: normal;
+  margin-left: 35px;
+  font-weight: 100!important;
+  font-size: 18px!important;
+  line-height: 20px!important;
+  
+  }
+
+.img-item{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.img-criterios{
+  max-width: 160%!important;
+  width: 130%!important;
+}
+
+.gestao-cuidado{
+  margin-top: 140px;
+  margin-right: -30px;
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: bold;
+font-size: 48px!important;
+line-height: 56px!important;
+
+}
+
+.img-inteligencia{
+  margin-left: -120px;
+  max-width: 140%!important;
+  width: 150%;
+}
+
+.ia{
+  font-size: 48px!important;
+  color:  #F6911E;
+}
+
+#box-comentario{
+  margin-top: 140px;
+  background-color: #FFF;
+  border-radius: 20px;
+  width: 500px;
+}
+
+#box-comentario .img-depoimento{
+  width: 144px;
+height: 144px;
+margin-left: 46px;
+margin-top: -50px;
+}
+
+#box-comentario .nome-depoimento{
+  margin-top: 10px;
+  margin-left: 60px;
+font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+}
+
+#box-comentario .depoimento{
+  padding: 10px 30px 40px 30px;
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px!important;
+line-height: 21px;
+}
+
+.inscricao-regulamento{
+  font-family: 'VotorantimSans';
+  width: 400px;
+  height: 100px;
+  padding: 26px 67px;
+  color: #fff;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+text-transform: uppercase;
+  background: #0C46E6;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.area-contato{
+  margin: 100px 0px;
+}
+
+.titulo-contato{
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-transform: uppercase;
+color: #0000BF;
+}
+
+.desc-contato{
+  font-family: 'VotorantimSans';
+  margin: 20px 0px;
+  width: 480px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px!important;
+color: #0000BF;
+}
+
+.titulo-btn{
+  margin-top: 10px;
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-transform: capitalize;
+color: #0000BF;
+}
+
+.btn-form-contato{
+  background: #F3F3F3;
+border: 1px solid #0C46E6;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.btn-submit{
+  margin-top: 30px;
+  font-family: 'VotorantimSans';
+  background: #0000BF;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.titulo-rodape{
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+.titulo-apoio{
+  margin-right: 20px;
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: bold;
+float: right;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+.titulo-parceiro{
+  margin-right: 20px;
+  font-family: 'VotorantimSans';
+font-style: normal;
+font-weight: bold;
+float: left;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+.logo-apoio{
+  float: right;
+  margin-right: 50px;
 }
