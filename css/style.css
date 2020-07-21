@@ -16,10 +16,41 @@
   .site-header {
     height: 107px;
   }
+  .divisao-4{
+    width: 60%;
+  }
+
+  .dados{
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .icone-2{
+    margin-top: 200px!important;
+  }
+  .icone-3{
+    margin-top: 320px!important;
+    left: -10px!important;
+  }
+
+  .icone-1{
+    left: -85px;
+  }
+
+  .apoio-municipio{
+    font-size: 30px;
+    width: 550px;
+    line-height: 1.1em;
+  }
+
+  .hero-image img {
+    max-width: 100%!important;
+}
+
+   
 }
 
 .site-header .main-menu {
-  margin: 0 -18px;
+  margin: 0 -18px; 
   
 }
 
@@ -29,6 +60,32 @@
     display: -ms-flexbox;
     display: flex;
   }
+
+  .site-header .main-menu {
+    margin: 0 -18px; 
+    
+  }
+
+  .hero-image img {
+    max-width: 100%;
+}
+
+  .icone-4{
+    top: 190px!important;
+  }
+
+  .icone-5{
+    top: 280px!important;
+  }
+  .icone-1 {
+    left: -90px!important;
+  }
+
+  .ml-100{
+    margin-left: 80px;
+  }
+
+  
 }
 
 @media (min-width: 992px) {
@@ -165,6 +222,11 @@ font-size: 16px;
 @media (min-width: 1200px) {
   .header-btns .btn-1 {
     margin: 0 17px;
+  }
+
+  .main-menu {
+    margin: 0 220px;
+    
   }
 }
 
@@ -306,10 +368,50 @@ font-size: 16px;
   border-bottom: 1px solid transparent;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 988px) {
+  .area-pc{
+    display: none;
+  }
+  .dados-mobile{
+    margin:0 auto;
+    display: block!important;
+  } 
+  .hero-image img{
+    max-width: 100%!important;
+  }
+  .ml-100{
+    margin-left: 0px;
+  }
+  .inscricao-regulamento2{
+    font-size: 9pt;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
   .mobile-menu.mean-container .mean-bar .mean-nav .menu-dropdown {
     padding-left: 40px;
   }
+  .icone-3{
+    left: -30px!important;
+    margin-top: 460px!important;
+  }
+  .icone-2{
+    left: -60px!important;
+    margin-top: 270px!important;
+  }
+
+  .icone-4{
+    right: -100px!important;
+  }
+
+  .icone-5{
+    right: -80px!important;
+    top:360px!important;
+  }
+
 }
 
 .mobile-menu.mean-container .mean-bar .mean-nav .menu-dropdown p {
@@ -368,18 +470,36 @@ font-size: 16px;
   }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .hero-content h1 {
     font-size: 60px;
     line-height: 65px;
-    margin-bottom: 24px;
+    margin-bottom: 44px;
   }
+  .area-pc{
+    display: none;
+  }
+  .dados-mobile{
+    margin:0 auto;
+    display: block!important;
+  } 
 }
 
-@media (min-width: 768px) {
-  .hero-content h1 {
-    padding-right: 78px;
-  }
+@media (max-width: 768px) {
+  .hero-image img {
+    max-width: 90%!important;
+  } 
+    .img-criterios{
+      max-width: 90%!important;
+    }
+
+    .area-pc{
+      display: none;
+    }
+    .dados-mobile{
+      margin:0 auto;
+      display: block!important;
+    } 
 }
 
 @media (min-width: 992px) {
@@ -454,6 +574,7 @@ font-size: 16px;
     height: 60px;
     width: calc(100% - 187px);
   }
+  
 }
 
 .hero-form .form-group input::-webkit-input-placeholder {
@@ -858,19 +979,6 @@ font-size: 16px;
   }
 }
 
-@media (min-width: 768px) {
-  .content-right-content p, .content-left-content p {
-    font-size: 20px;
-    line-height: 34px;
-  }
-}
-
-@media (min-width: 992px) {
-  .content-right-content p, .content-left-content p {
-    font-size: 21px;
-    line-height: 36px;
-  }
-}
 
 .content-right-content .content-bottom-part, .content-left-content .content-bottom-part {
   padding-top: 20px;
@@ -996,7 +1104,6 @@ font-size: 16px;
 
 .content-list li span {
   font-size: inherit;
-  margin-right: 18px;
 }
 
 .content-list li span i {
@@ -1702,3 +1809,38 @@ font-size: 16px;
   padding-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
+
+.icone-1{
+  width: 100%;
+}
+
+.icone-2{
+  position: absolute;
+  width: 25%;
+  margin-top:320px!important;
+  left: -90px;
+}
+
+.icone-3{
+  width: 25%;
+  position: absolute;
+  margin-top: 500px!important;
+  margin-bottom: 50px!important;
+  left: -20px!important;
+}
+
+.icone-4{
+  width: 25%;
+  position: absolute;
+  top:160px;
+  right: -100px;
+}
+
+.icone-5{
+  width: 25%;
+  position: absolute;
+  top:400px!important;
+  right: -60px;
+}
+
+

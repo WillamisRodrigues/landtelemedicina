@@ -80,12 +80,13 @@ ini_set(“display_errors”, 0 );
 
         // $mail->AddAddress("fernanda@tewa225.com", 'Instituto Votorantim');
 
-        // $mail->AddAddress("antonio.rodrigues8856@gmail.com", 'Instituto Votorantim'); // Define qual conta de email receberá a mensagem
+        $mail->AddAddress("antonio.rodrigues8856@gmail.com", 'Edital Telemedicina'); // Define qual conta de email receberá a mensagem
 
    
         //$mail->AddBCC('copiaoculta@dominio.info'); // Define qual conta de email receberá uma cópia oculta
-
-        $mail->AddAddress("wrodrigues153@gmail.com", 'Instituto Votorantim');
+        $mail->AddAddress("contato@institutovotorantim.org.br", 'Edital Telemedicina'); 
+        $mail->AddAddress("talita.andre@institutovotorantim.org.br", 'Edital Telemedicina'); 
+        $mail->AddAddress("juliana.mitkiewicz@votorantim.com", 'Edital Telemedicina'); 
 
         // Definição de HTML/codificação
 
